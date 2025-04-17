@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=National+Park:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,9 +8,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "National Park", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+}
+
+.navbar {
+  background-color: rgba(0, 13, 41, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .hash-span {
@@ -33,20 +38,26 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+.blue-gradient {
+  background: #2563EB;
+  background: linear-gradient(-90deg, #2563EB 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #2563EB 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
-.green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+.blue-red-gradient {
+  background: "#CE5656";
+  background: linear-gradient(90.13deg, #599DED 1.9%, #CE5656 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #599DED 1.9%, #CE5656 97.5%);
+}
+
+.blue-yellow-gradient {
+  background: "#F5BD3B";
+  background: linear-gradient(90.13deg, #599DED 1.9%, #F5BD3B 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #599DED 1.9%, #F5BD3B 97.5%);
 }
 
 .orange-text-gradient {

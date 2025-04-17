@@ -1,28 +1,18 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    northeastern,
+    bose,
+    busek,
+    cplusplus,
+    java,
+    python,
+    ubuntu,
+    c,
     javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
+    scrum,
+    supermarket,
+    minesweeper,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -42,129 +32,74 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "C++",
+      icon: cplusplus,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Java",
+      icon: java,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Python",
+      icon: python,
     },
     {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
+      title: "Ubuntu",
+      icon: ubuntu,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      title: "C",
+      icon: c,
     },
     {
-      name: "JavaScript",
+      title: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
+      title: "Git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      title: "Scrum",
+      icon: scrum,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Bachelor's in Computer Science",
+      company_name: "Northeastern University",
+      icon: northeastern,
+      iconBg: "#C4C4C4",
+      date: "September 2020 - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Graduated with honors from Khoury College of Computer Science and a GPA of 3.7/4.0",
+        "Took courses in Software Development, Object-Oriented Design, Algorithms, Networks, Systems, Security, and AI",
+        "Developed skill with Windows, Ubuntu, Git, VS Code, Vim, React, Unit Testing, and more",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Embedded SW Engineer Co-op",
+      company_name: "Bose Corporation",
+      icon: bose,
+      iconBg: "#1e1e1e",
+      date: "December 2022 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked inside Scrum team responsible for new features, bug fixes, and explorations ",
+        "Programmed on development units with thorough accompanying unit and integration tests",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Robotics Software Co-op",
+      company_name: "Busek Co",
+      icon: busek,
+      iconBg: "#479FFF",
+      date: "January 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintained and updated C++ codebase, independently debugging to enable hardware tests",
+        "Implemented changes to pose estimation software, greatly speeding up visual detection",
+        "Developed Unity visualization tool to graphically enhance MatLab interface",
+        "Tracked data with web-based databases and custom web dashboards over sockets",
       ],
     },
   ];
@@ -172,95 +107,67 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      name: "Vinodh Bodapati",
+      designation: "Senior Software Engineer at Bose",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQGV7tNRBaa9FQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1519119386157?e=1750291200&v=beta&t=xmrweiVmy3UI1pv0zn7Q2W_dVK5eoa31RgJb0NDTiGc",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      name: "Simon Halpern",
+      designation: "Former Director of Robotics at Busek",
+      image: "https://media.licdn.com/dms/image/v2/C4E03AQGBumDrceyd8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647271137503?e=1750291200&v=beta&t=LcmNeL37ZrZdl3AhOgsid2WHyQd3FWnbXa6S1GSeARw",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      name: "Matt Rizzo",
+      designation: "Embedded Engineer at Bose",
+      image: "https://media.licdn.com/dms/image/v2/C4D03AQEFxwCBVRimAg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1518647650015?e=1750291200&v=beta&t=Xohok5HNRqemFEk8zTNefBGJAQaQwPe-VkCuIuer5l8",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Supermarket Check Out",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "C++ program using Object-Oriented Design to create a receipt based on a complex shopping cart. Handles store-wide deals and ensures lowest cost according to individually assigned discounts.",
       tags: [
         {
-          name: "react",
+          name: "c++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ood",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: supermarket,
+      source_code_link: "https://github.com/NickMFrank/supermarket-example",
     },
     {
-      name: "Job IT",
+      name: "Minesweeper",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Complete recreation of the classic game minesweeper in C++. Allows for creation of a custom-sized board with standard functionality (including search for revealed tiles).",
       tags: [
         {
-          name: "react",
+          name: "c++",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ood",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "smfl",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: minesweeper,
+      source_code_link: "https://github.com/NickMFrank/MinesweeperGame",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, experiences, testimonials, projects };
   
