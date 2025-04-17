@@ -12,7 +12,6 @@ import {
     scrum,
     supermarket,
     minesweeper,
-    tripguide,
   } from "../assets";
   
   export const navLinks = [
