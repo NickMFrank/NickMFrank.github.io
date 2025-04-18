@@ -12,7 +12,7 @@ const ServiceCard = ({index, title, icon}) => {
   return (
     <Tilt className="xs:w-[174px] w-full">
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.4)}
+        variants={fadeIn("right", "spring", 0.35 * index, 0.5)}
         className="w-full blue-red-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div options={{max:30, scale:1, speed:450}} 
@@ -48,7 +48,7 @@ const About = () => {
     </motion.p>
     <div className="mt-10 max-w-[760px] lgabt:max-w-[1280px] ml-[-16px]">
       <div className="grid gap-4 justify-center grid-cols-[repeat(auto-fit,_minmax(174px,_174px))]">
-        <Tilt options={{max:30, scale:1, speed:50}} className="blue-red-gradient p-[1px] rounded-[20px] shadow-card h-[496px] w-[364px] col-span-2 row-span-2">
+        <div className="blue-red-gradient p-[1px] rounded-[20px] shadow-card h-[496px] w-[364px] col-span-2 row-span-2">
           <img 
             src={profile} 
             alt="Profile"
@@ -56,7 +56,7 @@ const About = () => {
             decoding="async"
             className="w-full h-full rounded-[20px] object-cover"
           />
-        </Tilt>
+        </div>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
