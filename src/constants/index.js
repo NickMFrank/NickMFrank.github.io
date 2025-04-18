@@ -131,7 +131,7 @@ import {
     {
       name: "Supermarket Check Out",
       description:
-        "C++ program using Object-Oriented Design to create a receipt based on a complex shopping cart. Handles store-wide deals and ensures lowest cost according to individually assigned discounts.",
+        "C++ program using Object-Oriented Design to create a receipt based on a provided shopping cart. Handles store-wide deals and ensures lowest cost according to individually assigned discounts.",
       tags: [
         {
           name: "c++",

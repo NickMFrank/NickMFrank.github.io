@@ -19,6 +19,8 @@ import scrum from "./scrum.png";
 import supermarket from "./supermarket.png";
 import minesweeper from "./minesweeper.png";
 
+import profile from "./profile.jpg";
+
 export {
   logo,
   github,
@@ -37,4 +39,5 @@ export {
   scrum,
   supermarket,
   minesweeper,
+  profile,
 };

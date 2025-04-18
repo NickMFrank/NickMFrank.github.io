@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { services } from '../constants';
+import { profile } from '../assets';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -49,7 +50,7 @@ const About = () => {
       <div className="grid gap-4 justify-center grid-cols-[repeat(auto-fit,_minmax(174px,_174px))]">
         <Tilt options={{max:30, scale:1, speed:50}} className="blue-red-gradient p-[1px] rounded-[20px] shadow-card h-[496px] w-[364px] col-span-2 row-span-2">
           <img 
-            src="/src/assets/profile.jpg" 
+            src={profile} 
             alt="Profile"
             loading="lazy"
             decoding="async"
