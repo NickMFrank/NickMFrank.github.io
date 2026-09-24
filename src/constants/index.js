@@ -74,7 +74,7 @@ import {
       date: "September 2025 - May 2027",
       points: [
         "Currently maintaining GPA of 4.0/4.0",
-        "Taken courses in Mobile Robotics, Sensors & Navigation, Control Systems, and Nautral Language Processing",
+        "Taken courses in Mobile Robotics, Reinforcement Learning, Sensors & Navigation, Control Systems, and Nautral Language Processing",
       ],
     },
     {
