@@ -84,7 +84,7 @@ import {
       iconBg: "#2348BB",
       date: "June 2026 - December 2026",
       points: [
-        "Owned hand pose estimaton pipeline of custom egocentric camera rig with custom fine-tuned models",
+        "Owned hand pose estimation pipeline of custom egocentric camera rig with custom fine-tuned models",
         "Contributed towards hardware and firmware alike for pilot program",
         "Performed exploratory development work to validate team data collection's project",
       ],
