@@ -1,5 +1,6 @@
 import {
     northeastern,
+    chewy,
     bose,
     busek,
     cplusplus,
@@ -74,6 +75,18 @@ import {
       points: [
         "Currently maintaining GPA of 4.0/4.0",
         "Taken courses in Mobile Robotics, Sensors & Navigation, Control Systems, and Nautral Language Processing",
+      ],
+    },
+    {
+      title: "Robotics SW Engineer Co-op",
+      company_name: "Chewy",
+      icon: chewy,
+      iconBg: "#2348BB",
+      date: "June 2026 - December 2026",
+      points: [
+        "Owned hand pose estimaton pipeline of custom egocentric camera rig with custom fine-tuned models",
+        "Contributed towards hardware and firmware alike for pilot program",
+        "Performed exploratory development work to validate team data collection's project",
       ],
     },
     {
